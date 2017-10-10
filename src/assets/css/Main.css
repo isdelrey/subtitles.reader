@@ -1,0 +1,7 @@
+main {
+  height: 95vh;
+}
+
+main .message {
+  font-weight: lighter;
+}

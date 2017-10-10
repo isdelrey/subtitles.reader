@@ -1,0 +1,20 @@
+header {
+  padding-top: 10px;
+  height: 5vh;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+
+header .apptitle {
+  font-size: 12px;
+  padding: 3px 16px 0 0;
+  text-align: right;
+  color: #999;
+}
+
+header .filename {
+  font-size: 14px;
+  padding: 0.45px 0 0 85px;
+  text-align: left;
+  color: #888;
+}
