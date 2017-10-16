@@ -1,12 +1,12 @@
 {
-  "name": "basic-electron-react-boilerplate",
-  "version": "0.7.0",
-  "description": "Minimal and modern react+electron+webpack boilerplate",
-  "author": "Phillip Barbiero",
-  "homepage": "https://github.com/pbarbiero/basic-electron-react-boilerplate",
+  "name": "subtitle-reader",
+  "version": "0.2",
+  "description": "Electron App to read subtitle files.",
+  "author": "Ivo Sequeros del Rey",
+  "homepage": "https://github.com/ivosequeros/subtitles",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pbarbiero/basic-electron-react-boilerplate.git"
+    "url": "https://github.com/ivosequeros/subtitles"
   },
   "license": "MIT",
   "main": "main.js",
@@ -36,7 +36,11 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "history": "^4.7.2",
     "react-dropzone": "^4.1.3",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-native": "^4.2.0",
     "react-touchbar-electron": "^0.0.1",
     "subtitle": "^1.0.0"
   }
