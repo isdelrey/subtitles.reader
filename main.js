@@ -18,7 +18,8 @@ if ( process.defaultApp || /[\\/]electron-prebuilt[\\/]/.test(process.execPath) 
 
 function createWindow() {
   // Create the browser window.
-  mainWindow = new BrowserWindow({backgroundColor: '#000', width: 800, minWidth: 768, height: 600, minHeight: 400, darkTheme: true, titleBarStyle: 'hiddenInset'});
+  mainWindow = new BrowserWindow({backgroundColor: '#000', width: 850, minWidth: 768, height: 400, minHeight: 400, darkTheme: true, titleBarStyle: 'hiddenInset'});
+  mainWindow.setAspectRatio(2.1);
   // and load the index.html of the app.
   let indexPath;
   if ( dev && process.argv.indexOf('--noDevServer') === -1 ) {
@@ -51,7 +52,7 @@ function createWindow() {
     // Dereference the window object, usually you would store windows
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
-    mainWindow = null;
+    app.quit();
   });
 }
 
