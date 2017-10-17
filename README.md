@@ -1,5 +1,9 @@
-![](docs/title.png)
-
-Simple Subtitles Reader written in [ES6](https://github.com/lukehoban/es6features) using [React](https://github.com/facebook/react) & [MobX](https://github.com/mobxjs/mobx) and packaged with [Electron](https://github.com/electron/electron)
-
-![](docs/screenshots/main.gif)
+<p align="center">
+<img src="docs/title.png" height="80">
+</p>
+<p align="center">
+  Simple Subtitles Reader written in <a href="https://github.com/lukehoban/es6features">ES6</a> using <a href="https://github.com/facebook/react">React</a> & <a href="https://github.com/mobxjs/mobx">Mobx</a> and packaged with <a href="https://github.com/electron/electron">Electron</a>
+</p>
+<p align="center">
+<img src="docs/screenshots/main.gif">
+</p>
