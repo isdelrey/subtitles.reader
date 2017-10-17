@@ -1,6 +1,15 @@
 body {
-  background-color: #000;
+  background-color: #111;
   margin-top: 0;
   color: #e0e0e0;
   font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
+}
+main {
+  height: 95vh;
+  overflow: hidden;
+}
+
+main .message {
+  font-weight: lighter;
+  font-size: 2vw;
 }

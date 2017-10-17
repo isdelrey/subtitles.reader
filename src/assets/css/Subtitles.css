@@ -2,3 +2,22 @@
   height: 100%;
   -webkit-user-select: none;
 }
+.subtitles div {
+  width: 100%;
+  -webkit-transition: all 0.1s;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 3vw;
+}
+.active {
+}
+.subtitles div:not(.active) {
+  opacity: 0;
+}
+.subtitles {
+  -webkit-transition: all 0.1s;
+
+}
+.active + div,.active + div + div {
+  opacity: 0.3 !important;
+}
