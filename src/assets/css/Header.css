@@ -37,4 +37,5 @@ header .menu {
   font-size:9.5px;
   float: left;
   padding:2px 10px;
+  display: none; /* to be removed */
 }
