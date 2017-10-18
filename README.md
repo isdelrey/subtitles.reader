@@ -7,3 +7,6 @@
 <p align="center">
 <img src="docs/screenshots/main.gif">
 </p>
+<p align="center">
+<a href="https://github.com/ivosequeros/subtitles.reader/releases/latest"><img src="docs/downloadMacOS.png" height="60"></a>
+</p>
