@@ -1,6 +1,6 @@
 {
-  "name": "subtitle-reader",
-  "version": "0.9.0",
+  "name": "subtitles.reader",
+  "version": "0.9.6",
   "description": "Electron App to read subtitle files.",
   "author": "Ivo Sequeros del Rey",
   "homepage": "https://github.com/ivosequeros/subtitles",
@@ -15,7 +15,7 @@
     "dev": "webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js",
     "build": "webpack --config webpack.build.config.js",
     "package": "webpack --config webpack.build.config.js",
-    "postpackage": "electron-packager ./ \"Subtitle Reader\" --out=./builds --icon=icon/icon.icns"
+    "postpackage": "electron-packager ./ \"subtitles.reader\" --all --out=./builds --icon=icon/icon"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
